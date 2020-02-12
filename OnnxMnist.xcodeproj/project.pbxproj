@@ -12,6 +12,39 @@
 		49AAB3DC23F384CF00D30380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AAB3DB23F384CF00D30380 /* Assets.xcassets */; };
 		49AAB3DF23F384CF00D30380 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AAB3DE23F384CF00D30380 /* Preview Assets.xcassets */; };
 		49AAB3E223F384CF00D30380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AAB3E023F384CF00D30380 /* Main.storyboard */; };
+		49AAB3F423F3853400D30380 /* libonnxruntime_framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3EB23F3851200D30380 /* libonnxruntime_framework.a */; };
+		49AAB3F523F3853400D30380 /* libonnxruntime_graph.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3F223F3851200D30380 /* libonnxruntime_graph.a */; };
+		49AAB3F623F3853400D30380 /* libonnxruntime_mlas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3EE23F3851200D30380 /* libonnxruntime_mlas.a */; };
+		49AAB3F723F3853400D30380 /* libonnxruntime_optimizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3ED23F3851200D30380 /* libonnxruntime_optimizer.a */; };
+		49AAB3F823F3853400D30380 /* libonnxruntime_providers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3F323F3851200D30380 /* libonnxruntime_providers.a */; };
+		49AAB3F923F3853400D30380 /* libonnxruntime_session.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3F123F3851200D30380 /* libonnxruntime_session.a */; };
+		49AAB3FA23F3853400D30380 /* libonnxruntime_test_utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3EC23F3851200D30380 /* libonnxruntime_test_utils.a */; };
+		49AAB3FB23F3853400D30380 /* libonnxruntime_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3F023F3851200D30380 /* libonnxruntime_util.a */; };
+		49AAB3FD23F3854C00D30380 /* libonnx_test_runner_common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3EF23F3851200D30380 /* libonnx_test_runner_common.a */; };
+		49AAB40023F3858A00D30380 /* libgmockd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3FE23F3856600D30380 /* libgmockd.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		49AAB40123F3858A00D30380 /* libgtestd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB3FF23F3856600D30380 /* libgtestd.a */; };
+		49AAB40423F3859B00D30380 /* libonnx_proto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB40223F3859700D30380 /* libonnx_proto.a */; };
+		49AAB40523F3859B00D30380 /* libonnx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB40323F3859700D30380 /* libonnx.a */; };
+		49AAB40723F385B200D30380 /* libprotobuf-lited.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB40623F385AF00D30380 /* libprotobuf-lited.a */; };
+		49AAB40923F385BC00D30380 /* libre2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB40823F385B900D30380 /* libre2.a */; };
+		49AAB40D23F385DC00D30380 /* onnx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49AAB40B23F385DC00D30380 /* onnx.cpp */; };
+		49AAB41C23F3880200D30380 /* libonnxruntime_providers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41123F387FE00D30380 /* libonnxruntime_providers.a */; };
+		49AAB41D23F3880200D30380 /* libonnxruntime_common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41223F387FF00D30380 /* libonnxruntime_common.a */; };
+		49AAB41E23F3880200D30380 /* libonnxruntime_util.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41323F387FF00D30380 /* libonnxruntime_util.a */; };
+		49AAB41F23F3880200D30380 /* libonnx_test_runner_common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41423F387FF00D30380 /* libonnx_test_runner_common.a */; };
+		49AAB42023F3880200D30380 /* libonnxruntime_test_utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41523F387FF00D30380 /* libonnxruntime_test_utils.a */; };
+		49AAB42123F3880200D30380 /* libonnxruntime_session.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41623F387FF00D30380 /* libonnxruntime_session.a */; };
+		49AAB42223F3880200D30380 /* libonnxruntime_graph.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41723F3880000D30380 /* libonnxruntime_graph.a */; };
+		49AAB42323F3880200D30380 /* libonnxruntime_optimizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41823F3880100D30380 /* libonnxruntime_optimizer.a */; };
+		49AAB42423F3880200D30380 /* libonnx_test_data_proto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41923F3880100D30380 /* libonnx_test_data_proto.a */; };
+		49AAB42523F3880200D30380 /* libonnxruntime_framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41A23F3880200D30380 /* libonnxruntime_framework.a */; };
+		49AAB42623F3880200D30380 /* libonnxruntime_mlas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB41B23F3880200D30380 /* libonnxruntime_mlas.a */; };
+		49AAB42923F3880300D30380 /* libgtestd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB42723F3880200D30380 /* libgtestd.a */; };
+		49AAB42A23F3880300D30380 /* libgmockd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB42823F3880300D30380 /* libgmockd.a */; };
+		49AAB42C23F3880C00D30380 /* libprotobuf-lited.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB42B23F3880C00D30380 /* libprotobuf-lited.a */; };
+		49AAB42E23F3882100D30380 /* libonnx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB42D23F3882100D30380 /* libonnx.a */; };
+		49AAB43023F3883500D30380 /* libre2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB42F23F3883500D30380 /* libre2.a */; };
+		49AAB43223F3884A00D30380 /* libonnx_proto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AAB43123F3884A00D30380 /* libonnx_proto.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +56,47 @@
 		49AAB3E123F384CF00D30380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49AAB3E323F384CF00D30380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49AAB3E423F384CF00D30380 /* OnnxMnist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OnnxMnist.entitlements; sourceTree = "<group>"; };
+		49AAB3EB23F3851200D30380 /* libonnxruntime_framework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnxruntime_framework.a; path = ../onnxruntime/build/Linux/Debug/libonnxruntime_framework.a; sourceTree = "<group>"; };
+		49AAB3EC23F3851200D30380 /* libonnxruntime_test_utils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnxruntime_test_utils.a; path = ../onnxruntime/build/Linux/Debug/libonnxruntime_test_utils.a; sourceTree = "<group>"; };
+		49AAB3ED23F3851200D30380 /* libonnxruntime_optimizer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnxruntime_optimizer.a; path = ../onnxruntime/build/Linux/Debug/libonnxruntime_optimizer.a; sourceTree = "<group>"; };
+		49AAB3EE23F3851200D30380 /* libonnxruntime_mlas.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnxruntime_mlas.a; path = ../onnxruntime/build/Linux/Debug/libonnxruntime_mlas.a; sourceTree = "<group>"; };
+		49AAB3EF23F3851200D30380 /* libonnx_test_runner_common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnx_test_runner_common.a; path = ../onnxruntime/build/Linux/Debug/libonnx_test_runner_common.a; sourceTree = "<group>"; };
+		49AAB3F023F3851200D30380 /* libonnxruntime_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnxruntime_util.a; path = ../onnxruntime/build/Linux/Debug/libonnxruntime_util.a; sourceTree = "<group>"; };
+		49AAB3F123F3851200D30380 /* libonnxruntime_session.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnxruntime_session.a; path = ../onnxruntime/build/Linux/Debug/libonnxruntime_session.a; sourceTree = "<group>"; };
+		49AAB3F223F3851200D30380 /* libonnxruntime_graph.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnxruntime_graph.a; path = ../onnxruntime/build/Linux/Debug/libonnxruntime_graph.a; sourceTree = "<group>"; };
+		49AAB3F323F3851200D30380 /* libonnxruntime_providers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnxruntime_providers.a; path = ../onnxruntime/build/Linux/Debug/libonnxruntime_providers.a; sourceTree = "<group>"; };
+		49AAB3FC23F3853400D30380 /* libonnxruntime_common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnxruntime_common.a; path = ../onnxruntime/build/Linux/Debug/libonnxruntime_common.a; sourceTree = "<group>"; };
+		49AAB3FE23F3856600D30380 /* libgmockd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmockd.a; path = ../onnxruntime/build/Linux/Debug/lib/libgmockd.a; sourceTree = "<group>"; };
+		49AAB3FF23F3856600D30380 /* libgtestd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtestd.a; path = ../onnxruntime/build/Linux/Debug/lib/libgtestd.a; sourceTree = "<group>"; };
+		49AAB40223F3859700D30380 /* libonnx_proto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnx_proto.a; path = ../onnxruntime/build/Linux/Debug/onnx/libonnx_proto.a; sourceTree = "<group>"; };
+		49AAB40323F3859700D30380 /* libonnx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libonnx.a; path = ../onnxruntime/build/Linux/Debug/onnx/libonnx.a; sourceTree = "<group>"; };
+		49AAB40623F385AF00D30380 /* libprotobuf-lited.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libprotobuf-lited.a"; path = "../onnxruntime/build/Linux/Debug/external/protobuf/cmake/libprotobuf-lited.a"; sourceTree = "<group>"; };
+		49AAB40823F385B900D30380 /* libre2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libre2.a; path = ../onnxruntime/build/Linux/Debug/external/re2/libre2.a; sourceTree = "<group>"; };
+		49AAB40A23F385DB00D30380 /* OnnxMnist-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnnxMnist-Bridging-Header.h"; sourceTree = "<group>"; };
+		49AAB40B23F385DC00D30380 /* onnx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = onnx.cpp; sourceTree = "<group>"; };
+		49AAB40C23F385DC00D30380 /* onnx.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = onnx.hpp; sourceTree = "<group>"; };
+		49AAB40E23F3861C00D30380 /* onnxruntime_cxx_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onnxruntime_cxx_api.h; sourceTree = "<group>"; };
+		49AAB40F23F3861C00D30380 /* onnxruntime_c_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onnxruntime_c_api.h; sourceTree = "<group>"; };
+		49AAB41023F3867800D30380 /* onnxruntime_cxx_inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onnxruntime_cxx_inline.h; sourceTree = "<group>"; };
+		49AAB41123F387FE00D30380 /* libonnxruntime_providers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnxruntime_providers.a; sourceTree = "<group>"; };
+		49AAB41223F387FF00D30380 /* libonnxruntime_common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnxruntime_common.a; sourceTree = "<group>"; };
+		49AAB41323F387FF00D30380 /* libonnxruntime_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnxruntime_util.a; sourceTree = "<group>"; };
+		49AAB41423F387FF00D30380 /* libonnx_test_runner_common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnx_test_runner_common.a; sourceTree = "<group>"; };
+		49AAB41523F387FF00D30380 /* libonnxruntime_test_utils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnxruntime_test_utils.a; sourceTree = "<group>"; };
+		49AAB41623F387FF00D30380 /* libonnxruntime_session.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnxruntime_session.a; sourceTree = "<group>"; };
+		49AAB41723F3880000D30380 /* libonnxruntime_graph.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnxruntime_graph.a; sourceTree = "<group>"; };
+		49AAB41823F3880100D30380 /* libonnxruntime_optimizer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnxruntime_optimizer.a; sourceTree = "<group>"; };
+		49AAB41923F3880100D30380 /* libonnx_test_data_proto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnx_test_data_proto.a; sourceTree = "<group>"; };
+		49AAB41A23F3880200D30380 /* libonnxruntime_framework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnxruntime_framework.a; sourceTree = "<group>"; };
+		49AAB41B23F3880200D30380 /* libonnxruntime_mlas.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnxruntime_mlas.a; sourceTree = "<group>"; };
+		49AAB42723F3880200D30380 /* libgtestd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgtestd.a; sourceTree = "<group>"; };
+		49AAB42823F3880300D30380 /* libgmockd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmockd.a; sourceTree = "<group>"; };
+		49AAB42B23F3880C00D30380 /* libprotobuf-lited.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libprotobuf-lited.a"; sourceTree = "<group>"; };
+		49AAB42D23F3882100D30380 /* libonnx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnx.a; sourceTree = "<group>"; };
+		49AAB42F23F3883500D30380 /* libre2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libre2.a; sourceTree = "<group>"; };
+		49AAB43123F3884A00D30380 /* libonnx_proto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonnx_proto.a; sourceTree = "<group>"; };
+		49AAB43323F3ACB300D30380 /* testFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testFile.cpp; sourceTree = "<group>"; };
+		49AAB43423F3ACB300D30380 /* testFile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testFile.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +104,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49AAB40023F3858A00D30380 /* libgmockd.a in Frameworks */,
+				49AAB40723F385B200D30380 /* libprotobuf-lited.a in Frameworks */,
+				49AAB42E23F3882100D30380 /* libonnx.a in Frameworks */,
+				49AAB42223F3880200D30380 /* libonnxruntime_graph.a in Frameworks */,
+				49AAB3F923F3853400D30380 /* libonnxruntime_session.a in Frameworks */,
+				49AAB42123F3880200D30380 /* libonnxruntime_session.a in Frameworks */,
+				49AAB42423F3880200D30380 /* libonnx_test_data_proto.a in Frameworks */,
+				49AAB3F523F3853400D30380 /* libonnxruntime_graph.a in Frameworks */,
+				49AAB41C23F3880200D30380 /* libonnxruntime_providers.a in Frameworks */,
+				49AAB3F823F3853400D30380 /* libonnxruntime_providers.a in Frameworks */,
+				49AAB41D23F3880200D30380 /* libonnxruntime_common.a in Frameworks */,
+				49AAB43223F3884A00D30380 /* libonnx_proto.a in Frameworks */,
+				49AAB3FA23F3853400D30380 /* libonnxruntime_test_utils.a in Frameworks */,
+				49AAB43023F3883500D30380 /* libre2.a in Frameworks */,
+				49AAB40523F3859B00D30380 /* libonnx.a in Frameworks */,
+				49AAB40923F385BC00D30380 /* libre2.a in Frameworks */,
+				49AAB3F723F3853400D30380 /* libonnxruntime_optimizer.a in Frameworks */,
+				49AAB42A23F3880300D30380 /* libgmockd.a in Frameworks */,
+				49AAB3F423F3853400D30380 /* libonnxruntime_framework.a in Frameworks */,
+				49AAB40423F3859B00D30380 /* libonnx_proto.a in Frameworks */,
+				49AAB3F623F3853400D30380 /* libonnxruntime_mlas.a in Frameworks */,
+				49AAB3FB23F3853400D30380 /* libonnxruntime_util.a in Frameworks */,
+				49AAB41F23F3880200D30380 /* libonnx_test_runner_common.a in Frameworks */,
+				49AAB3FD23F3854C00D30380 /* libonnx_test_runner_common.a in Frameworks */,
+				49AAB42923F3880300D30380 /* libgtestd.a in Frameworks */,
+				49AAB40123F3858A00D30380 /* libgtestd.a in Frameworks */,
+				49AAB41E23F3880200D30380 /* libonnxruntime_util.a in Frameworks */,
+				49AAB42C23F3880C00D30380 /* libprotobuf-lited.a in Frameworks */,
+				49AAB42623F3880200D30380 /* libonnxruntime_mlas.a in Frameworks */,
+				49AAB42023F3880200D30380 /* libonnxruntime_test_utils.a in Frameworks */,
+				49AAB42323F3880200D30380 /* libonnxruntime_optimizer.a in Frameworks */,
+				49AAB42523F3880200D30380 /* libonnxruntime_framework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +147,7 @@
 			children = (
 				49AAB3D623F384CD00D30380 /* OnnxMnist */,
 				49AAB3D523F384CD00D30380 /* Products */,
+				49AAB3EA23F3851200D30380 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +169,31 @@
 				49AAB3E323F384CF00D30380 /* Info.plist */,
 				49AAB3E423F384CF00D30380 /* OnnxMnist.entitlements */,
 				49AAB3DD23F384CF00D30380 /* Preview Content */,
+				49AAB40B23F385DC00D30380 /* onnx.cpp */,
+				49AAB41023F3867800D30380 /* onnxruntime_cxx_inline.h */,
+				49AAB40F23F3861C00D30380 /* onnxruntime_c_api.h */,
+				49AAB40E23F3861C00D30380 /* onnxruntime_cxx_api.h */,
+				49AAB40C23F385DC00D30380 /* onnx.hpp */,
+				49AAB40A23F385DB00D30380 /* OnnxMnist-Bridging-Header.h */,
+				49AAB41923F3880100D30380 /* libonnx_test_data_proto.a */,
+				49AAB42F23F3883500D30380 /* libre2.a */,
+				49AAB41423F387FF00D30380 /* libonnx_test_runner_common.a */,
+				49AAB41223F387FF00D30380 /* libonnxruntime_common.a */,
+				49AAB41A23F3880200D30380 /* libonnxruntime_framework.a */,
+				49AAB42D23F3882100D30380 /* libonnx.a */,
+				49AAB42823F3880300D30380 /* libgmockd.a */,
+				49AAB42B23F3880C00D30380 /* libprotobuf-lited.a */,
+				49AAB42723F3880200D30380 /* libgtestd.a */,
+				49AAB41723F3880000D30380 /* libonnxruntime_graph.a */,
+				49AAB43123F3884A00D30380 /* libonnx_proto.a */,
+				49AAB41B23F3880200D30380 /* libonnxruntime_mlas.a */,
+				49AAB41823F3880100D30380 /* libonnxruntime_optimizer.a */,
+				49AAB41123F387FE00D30380 /* libonnxruntime_providers.a */,
+				49AAB41623F387FF00D30380 /* libonnxruntime_session.a */,
+				49AAB41523F387FF00D30380 /* libonnxruntime_test_utils.a */,
+				49AAB41323F387FF00D30380 /* libonnxruntime_util.a */,
+				49AAB43323F3ACB300D30380 /* testFile.cpp */,
+				49AAB43423F3ACB300D30380 /* testFile.hpp */,
 			);
 			path = OnnxMnist;
 			sourceTree = "<group>";
@@ -72,6 +204,29 @@
 				49AAB3DE23F384CF00D30380 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49AAB3EA23F3851200D30380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49AAB40823F385B900D30380 /* libre2.a */,
+				49AAB40623F385AF00D30380 /* libprotobuf-lited.a */,
+				49AAB40223F3859700D30380 /* libonnx_proto.a */,
+				49AAB40323F3859700D30380 /* libonnx.a */,
+				49AAB3FE23F3856600D30380 /* libgmockd.a */,
+				49AAB3FF23F3856600D30380 /* libgtestd.a */,
+				49AAB3FC23F3853400D30380 /* libonnxruntime_common.a */,
+				49AAB3EF23F3851200D30380 /* libonnx_test_runner_common.a */,
+				49AAB3EB23F3851200D30380 /* libonnxruntime_framework.a */,
+				49AAB3F223F3851200D30380 /* libonnxruntime_graph.a */,
+				49AAB3EE23F3851200D30380 /* libonnxruntime_mlas.a */,
+				49AAB3ED23F3851200D30380 /* libonnxruntime_optimizer.a */,
+				49AAB3F323F3851200D30380 /* libonnxruntime_providers.a */,
+				49AAB3F123F3851200D30380 /* libonnxruntime_session.a */,
+				49AAB3EC23F3851200D30380 /* libonnxruntime_test_utils.a */,
+				49AAB3F023F3851200D30380 /* libonnxruntime_util.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +261,7 @@
 				TargetAttributes = {
 					49AAB3D323F384CD00D30380 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -147,6 +303,7 @@
 			files = (
 				49AAB3DA23F384CD00D30380 /* ContentView.swift in Sources */,
 				49AAB3D823F384CD00D30380 /* AppDelegate.swift in Sources */,
+				49AAB40D23F385DC00D30380 /* onnx.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = OnnxMnist/OnnxMnist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -293,9 +451,15 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OnnxMnist",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = org.tirania.OnnxMnist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnnxMnist/OnnxMnist-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -304,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = OnnxMnist/OnnxMnist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -316,9 +481,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OnnxMnist",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = org.tirania.OnnxMnist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnnxMnist/OnnxMnist-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
